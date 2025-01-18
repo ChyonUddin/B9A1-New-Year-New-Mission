@@ -4,20 +4,21 @@ main{
     margin:20px 50px 50px 50px;
 }
 .top-banner{
-   background-image:  url('/resources/Banner\ Image.png');
-   width: 1230px;
-   height: 680px;
-   background-repeat: no-repeat;
-   color: #FFFFFF;
-   text-align: center;
-   padding-top: 170px;
-   background: linear-gradient(rgba(0,0,0,));
+    width: 95%vh;
+    height: 580px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(/resources/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
 }
 .top-banner-details{
-    width: 623px;
-    height: 250px;
+    width: 40%vh;
+    height: 35%vh;
     word-spacing: 16px;
-    margin-left: 350px;
+    margin-left: 100px;
+    padding-top: 130px;
+    text-align: center;
+    color: antiquewhite;
 }
 .top-banner-details> h3{
     font-size: 32px;
@@ -26,4 +27,34 @@ main{
 .top-banner-details> h1{
     font-size: 72px;
     font-weight: 700px;
+    width: 600px;
+    margin-left: 280px;
+    margin-top: 0px;
+}
+/*banner-2-related-style*/
+.banner-2-container{
+    text-align: center;
+    margin-top: 100px;
+    width: 760px;
+    height: 750px;
+    margin-left: 250px;
+}
+.banner-2-title{
+    color: #FF0000;
+    font-size: 78px;
+    margin-bottom: 5px;
+}
+.banner-2-description{
+    font-size: 24px;
+    font-weight:medium;
+    color: #FF0000;
+    margin-bottom: 0px;
+}
+.banner-2-sub-title{
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.second-div{
+    word-spacing: 7px;
 }
