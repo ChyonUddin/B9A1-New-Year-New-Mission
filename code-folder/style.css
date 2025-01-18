@@ -123,3 +123,100 @@ main{
     border: none;
     margin-top: 35px;
 }
+/*banner-5-style*/
+.banner-5-container{
+    display: flex;
+    width: 95%vh;
+    height: 380px;
+    margin-top: 40px;
+    align-items: center;
+}
+.b5-coulme-2{
+    width: 37.3%;
+    height: 312px;
+    border: 9px solid red;
+    padding: 18px;
+    border-radius: 200px;
+}
+
+.b5-coulme-2-img{
+    width: 101%;
+    height: 310px;
+}
+.b5-coulme-1{
+    width: 44.3%;
+    margin: 12px 20px 0px 61px
+
+}
+.b5-coulme-1> h4{
+    color:red;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.b5-coulme-1> h2{
+    font-family: Merriweather;
+    color: #070211;
+    font-size: 48px;
+    margin: 0px;
+}
+.b5-discription{
+    font-size: 20px;
+    line-height: 32px;
+    font-family: Inter;
+    color: #070211;
+}
+.b5-coulme-3{
+    margin-left: 45px;
+}
+.b5-coulme-3> h2{
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 0px;
+    color: #FF0000;
+}
+.b5-discription-3{
+    color:#070211;
+    font-size: 20px;
+    line-height: 32px;
+    font-family: Inter;
+}
+/*banner-8-style*/
+.banner-8-container{
+    width: 95%vh;
+    height: 380px;
+    text-align: center;
+    margin-top: 50px;
+    background: linear-gradient(to top, white 0%, LemonChiffon 50%, Moccasin 100%);
+    border-radius: 15px;
+    margin-bottom: 180px;
+}
+.b8-img{
+    margin-top: 60px;
+}
+.banner-8-title{
+    font-size: 48px;
+    font-family: Merriweather;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #070211;
+}
+.banner-8-description{
+    font-size: 20px;
+    font-family: Inter;
+    line-height: 32px;
+    width: 800px;
+    padding-left: 200px;
+    margin-top:0px;
+    color: #070211;
+}
+input[type="email"]{
+    width: 300px;
+    padding: 20px;
+    margin-left: 0px;
+    border-radius: 10px;
+}
+.banner-8-coulme>.btn-primary{
+    margin: 0px;
+}
