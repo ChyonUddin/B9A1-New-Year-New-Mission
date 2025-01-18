@@ -58,3 +58,37 @@ main{
 .second-div{
     word-spacing: 7px;
 }
+/* banner-3-style*/
+.banner-3-container{
+    background-image:linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(/resources/Vectorrr.png);
+    display: flex;
+    margin-top: 100px;
+    border-radius: 15px;
+}
+.banner-3-coulme{
+    padding: 100px;
+    color: antiquewhite;
+}
+.banner-3-title{
+    font-family: Merriweather;
+    font-size: 64px;
+    width: 500px;
+    margin-bottom: 0px;
+    line-height: 88px;
+}
+.banner-3-discription{
+    font-family: Inter;
+    line-height: 30px;
+    font-size: 18px;
+}
+.banner-3-coulme>span{
+    font-family: Inter;
+    font-weight: 700;
+    margin-left: 20px;
+}
+.img-b3{
+    width: 300px;
+    height: 400px;
+    margin-top: 100px;
+    margin-right: 75px;  
+}
