@@ -191,6 +191,8 @@ main{
     background: linear-gradient(to top, white 0%, LemonChiffon 50%, Moccasin 100%);
     border-radius: 15px;
     margin-bottom: 180px;
+    justify-content: center;
+    justify-items:center;
 }
 .b8-img{
     margin-top: 60px;
@@ -207,20 +209,20 @@ main{
     font-family: Inter;
     line-height: 32px;
     width: 800px;
-    padding-left: 200px;
+    justify-items: center;
     margin-top:0px;
     color: #070211;
 }
 input[type="email"]{
     width: 300px;
-    padding: 20px;
-    margin-left: 0px;
+    padding: 18px 10px;
+    
     border-radius: 10px 0px 0px 10px;
     border-right: none;
     border-color: white;
     border-bottom: #FFFFFF;
     position: relative;
-    margin-left: auto;
+    margin-left: -132px;
 }
 .banner-8-coulme> .btn-primary{
     margin: 0px;
@@ -234,10 +236,11 @@ footer{
 }
 .footer-container{
     width: 100%vh;
-    height: 580px;
+    height: 500px;
     background-color: #070211;
     color: #FFFFFF;
     padding: 140px 70px 20px 70px;
+    margin: 0px;
 }
 .footer-1-row{
     display: flex;
@@ -260,13 +263,12 @@ footer{
      padding-top: 0px;
 }
 .footer-icons-list{
-    margin-left: 514px;
+    margin-left: 450px;
     padding: 30px;
 }
-hr{
-    height: 0px;
-    color:#FFFFFF;
-    stroke: none;
+hr {
+    border-style: double;
+    color: #FFFFFF;
 }
 .footer-2-row{
     display: flex;
